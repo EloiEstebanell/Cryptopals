@@ -12,3 +12,6 @@ b64_bytes = base64.b64encode(raw_bytes)
 
 # 4. We print the result, decoding the byte string to obtain a text string (str).
 print(b64_bytes.decode('utf-8'))
+
+if b64_bytes.decode('utf-8') =="SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t":
+    print("It's the same string")
